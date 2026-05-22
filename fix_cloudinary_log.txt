@@ -1,0 +1,38 @@
+=== 1. Товары и их image поля ===
+ID:8 | image: goods/2026/05/16/5890910051965717754.jpg | slug: dikij-zaryad-dlya-povysheniya-testosterona
+ID:7 | image: goods/2026/05/10/6035035320333569407.jpg | slug: ursactive
+ID:6 | image: goods/2026/05/10/6042021260734172240.jpg | slug: genuphil
+ID:5 | image: goods/2026/05/10/5987779792335473667.jpg | slug: fruktovo-orehovaya-smes-hayat
+ID:4 | image: goods/2026/05/10/6021387254296677262.jpg | slug: proceive-m-vitaminy-i-mineraly-dlya-muzhskogo-zdorovya
+
+=== 2. Удаляем старые изображения из Cloudinary ===
+Удаляю: goods/4_proceive-m-vitaminy-i-mineraly-dlya-muzhskogo-zdorovya
+Удаляю: goods/5_fruktovo-orehovaya-smes-hayat
+Удаляю: goods/6_genuphil
+Удаляю: goods/7_ursactive
+Удаляю: goods/8_dikij-zaryad-dlya-povysheniya-testosterona
+
+=== 3. Загружаем с правильными именами ===
+[8] Дикий заряд для повышения тестостерона
+     public_id: goods/2026/05/16/5890910051965717754
+     URL: https://res.cloudinary.com/dli9pgthl/image/upload/v1779432460/goods/2026/05/16/5890910051965717754.jpg
+[7] Ursactive
+     public_id: goods/2026/05/10/6035035320333569407
+     URL: https://res.cloudinary.com/dli9pgthl/image/upload/v1779432460/goods/2026/05/10/6035035320333569407.jpg
+[6] Genuphil
+     public_id: goods/2026/05/10/6042021260734172240
+     URL: https://res.cloudinary.com/dli9pgthl/image/upload/v1779432461/goods/2026/05/10/6042021260734172240.jpg
+[5] Фруктово-ореховая смесь «Хаят»
+     public_id: goods/2026/05/10/5987779792335473667
+     URL: https://res.cloudinary.com/dli9pgthl/image/upload/v1779432462/goods/2026/05/10/5987779792335473667.jpg
+[4] Proceive – M Витамины и минералы для мужского здоровья!
+     public_id: goods/2026/05/10/6021387254296677262
+     URL: https://res.cloudinary.com/dli9pgthl/image/upload/v1779432462/goods/2026/05/10/6021387254296677262.jpg
+
+=== 4. Ресурсы в Cloudinary ===
+  goods/2026/05/10/5987779792335473667 -> https://res.cloudinary.com/dli9pgthl/image/upload/v1779432462/goods/2026/05/10/5987779792335473667.jpg
+  goods/2026/05/10/6021387254296677262 -> https://res.cloudinary.com/dli9pgthl/image/upload/v1779432462/goods/2026/05/10/6021387254296677262.jpg
+  goods/2026/05/10/6035035320333569407 -> https://res.cloudinary.com/dli9pgthl/image/upload/v1779432460/goods/2026/05/10/6035035320333569407.jpg
+  goods/2026/05/10/6042021260734172240 -> https://res.cloudinary.com/dli9pgthl/image/upload/v1779432461/goods/2026/05/10/6042021260734172240.jpg
+  goods/2026/05/16/5890910051965717754 -> https://res.cloudinary.com/dli9pgthl/image/upload/v1779432460/goods/2026/05/16/5890910051965717754.jpg
+  Всего: 5
