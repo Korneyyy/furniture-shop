@@ -1,1 +1,1 @@
-web: python manage.py migrate --noinput && python manage.py collectstatic --noinput --no-post-process && gunicorn config.wsgi:application --bind 0.0.0.0:$PORT
+web: python manage.py compilemessages --locale ru --locale en --locale ar 2>/dev/null; python manage.py migrate --noinput 2>/dev/null || true; python manage.py collectstatic --noinput --no-post-process 2>/dev/null || true; gunicorn config.wsgi:application --bind 0.0.0.0:$PORT
